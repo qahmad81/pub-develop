@@ -1,0 +1,20 @@
+{
+  "protocol_version": "0.2.0",
+  "repository_id": null,
+  "governance_ref": "refs/heads/governance",
+  "main_branch": "main",
+  "owner_user_id": null,
+  "goals": [],
+  "out_of_scope": [],
+  "maintainers": [],
+  "required_approvals": 3,
+  "max_open_tasks": 10,
+  "claim_duration_hours": 72,
+  "schedule_minutes": {
+    "triage": 60,
+    "review": 30,
+    "merge": 30,
+    "governance": 60
+  },
+  "mode": "preview"
+}

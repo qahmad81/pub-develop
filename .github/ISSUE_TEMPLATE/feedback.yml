@@ -1,0 +1,36 @@
+name: Report or suggestion
+description: Share an experience, problem, feature request, or improvement
+body:
+  - type: markdown
+    attributes:
+      value: Describe what you observed in your own words. Use the project's private reporting channel for vulnerabilities and remove sensitive data from examples and attachments.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Type of feedback
+      options:
+        - Problem
+        - Feature request
+        - Suggested improvement
+        - Other experience or observation
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: What happened or what do you propose?
+      description: Describe what you were trying to do, what happened, or what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: How does it affect your use of the application?
+      description: Give an example of time or steps saved by the suggestion, or a task the problem prevents.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Details that help us verify the report
+      description: Add reproduction steps, the application version, or a redacted screenshot if available.

@@ -1,0 +1,24 @@
+{
+  "revision": 1,
+  "members": [],
+  "protected_paths": [
+    ".pub-develop/project.json",
+    ".pub-develop/committee.json",
+    ".pub-develop/policy.md",
+    ".pub-develop/committee.md",
+    ".pub-develop/points.md",
+    ".pub-develop/prompts/**",
+    ".github/CODEOWNERS",
+    "CODEOWNERS",
+    "docs/CODEOWNERS",
+    ".github/workflows/**",
+    "composer.json",
+    "composer.lock"
+  ],
+  "voting_period_days": 7,
+  "nomination": {
+    "minimum_points": 20,
+    "minimum_contributions": 4,
+    "lookback_days": 180
+  }
+}

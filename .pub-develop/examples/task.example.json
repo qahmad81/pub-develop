@@ -1,0 +1,18 @@
+{
+  "task_id": "PD-0042-01",
+  "revision": 1,
+  "issue_number": 42,
+  "decision_id": "PD-0042-D1",
+  "kind": "fix",
+  "goal": "Let users recover their draft after closing the application",
+  "scope": ["Restore the latest local draft in the editor"],
+  "out_of_scope": ["Cross-device synchronization"],
+  "acceptance": ["Reopening the editor restores the latest local draft text"],
+  "verification": ["Write a draft, close and reopen the application, and verify that the text persists"],
+  "depends_on": [],
+  "target_branch": "main",
+  "batch_id": null,
+  "status": "ready",
+  "claim": null,
+  "pull_request_number": null
+}
